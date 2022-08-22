@@ -7,13 +7,13 @@ input {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
-  border: 1px solid #5f9341;
+  border: 1px solid #4b96e0;
   margin-bottom: 2px;
 }
 
 button {
   color: white;
-  background-color: #5f9341;
+  background-color: #4b96e0;
   border: none;
   margin-top: 2px;
   padding: 12px 25px;
@@ -32,5 +32,5 @@ li {
 }
 
 li a {
-  color: #5f9341;
+  color: #4b96e0;
 }
