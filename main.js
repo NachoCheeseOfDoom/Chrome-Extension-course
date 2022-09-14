@@ -34,7 +34,6 @@ function Render(leads) {
     // ulEl.append(li)
   }
   ulEl.innerHTML = listItems;
-  console.log("Hola");
 }
 
 deleteBtn.addEventListener("dblclick", function () {
