@@ -27,23 +27,13 @@ function Render(leads) {
   for (let i = 0; i < leads.length; i++) {
     //listItems += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>";
     listItems += `
-    <li> <a target='_blank' href=' ${leads[i]}'> ${leads[i]} </a><button onclick="hello()">Delete</button> </li>
+    <li> <a target='_blank' href=' ${leads[i]}'> ${leads[i]} </a></li>
     -------------------------------------------------------------------------------------------------`;
     // const li = document.createElement("li")
     // li.textContent = myLeads[i];
     // ulEl.append(li)
   }
   ulEl.innerHTML = listItems;
-}
-
-function hello() {
-  // for (let i = 0; i < leads.length; i++) {
-
-  // }
-  console.log("hey whats up")
-  // localStorage.clear();
-  // myLeads = [];
-  // Render(myLeads);
 }
 
 deleteBtn.addEventListener("dblclick", function () {
